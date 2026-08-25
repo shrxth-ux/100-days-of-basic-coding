@@ -6,3 +6,5 @@ hi, I'm Shreashth and I'm a beginner at coding, I'm starting a hundred day codin
 | Day | Date | Focus / Project | What I Learned |
 | :--- | :--- | :--- | :--- |
 | Day 1 | Aug 20 | Hello World | Setup compiler app on Android and created this repo! |
+| Day 2 | Aug 24 | Hello World | Setup compiler app on Android and created this repo! |
+| Day 3 | Aug 25 | leap year | leap years are divisible by 400 |
