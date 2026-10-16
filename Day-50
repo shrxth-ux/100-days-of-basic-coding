@@ -1,0 +1,35 @@
+#include <stdio.h>
+void convertDate(char* d){
+    printf("%c%c-Apr-%c%c%c%c\n",d[0],d[1],d[6],d[7],d[8],d[9]);
+}
+int main(){
+    convertDate("15/04/2026");
+    convertDate("01/04/1999");
+    convertDate("30/04/2024");
+    return 0;
+}
+
+
+
+
+
+
+#include <stdio.h>
+#include <string.h>
+void printSubstrings(char* s){
+    int n=strlen(s);
+    for(int i=0;i<n;i++){
+        for(int j=i;j<n;j++){
+            for(int k=i;k<=j;k++) printf("%c",s[k]);
+            printf("\n");
+        }
+    }
+}
+int main(){
+    printf("--- Substrings of abc ---\n");
+    printSubstrings("abc");
+    printf("--- Substrings of hi ---\n");
+    printSubstrings("hi");
+    return 0;
+}
+
